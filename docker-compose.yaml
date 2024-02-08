@@ -2,7 +2,7 @@ version: '3.8'
 services:
   frontend:
     container_name: frontend_container
-    image: frontend_image
+    image: frontend_image:footer
     build: ./frontend
     ports:
       - "3000:3000"
